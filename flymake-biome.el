@@ -47,7 +47,7 @@
                  (region (flymake-diag-region code-buffer line col))
                  (dx (flymake-make-diagnostic code-buffer (car region) (cdr region)
                                               :error description)))
-            (add-to-list 'dxs dx)))))
+            (push dx dxs)))))
     dxs))
 
 (defun flymake-biome--run-checker (report-fn &rest _args)
