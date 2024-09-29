@@ -30,8 +30,7 @@
 (defun flymake-biome--check-buffer ()
   "Generate a list of diagnostics for the current buffer."
   (let ((code-buffer (current-buffer))
-        (code-content (without-restriction
-                        (buffer-substring-no-properties (point-min) (point-max))))
+        (code-content (buffer-substring-no-properties (point-min) (point-max)))
         (dxs '()))
     (with-temp-buffer
       (insert code-content)
