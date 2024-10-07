@@ -1,4 +1,4 @@
-;;; flymake-biome.el --- A flymake plugin for SQL files using biome -*- lexical-binding: t -*-
+;;; flymake-biome.el --- A flymake plugin for Javascript files using biome -*- lexical-binding: t -*-
 
 ;; Copyright © 2024 Erick Navarro
 ;; Author: Erick Navarro <erick@navarro.io>
