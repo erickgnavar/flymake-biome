@@ -1,8 +1,17 @@
 # flymake-biome
 
+[![MELPA](https://melpa.org/packages/flymake-biome-badge.svg)](https://melpa.org/#/flymake-biome)
+
 Flymake plugin to run a linter for JS buffers using [biome](https://biomejs.dev)
 
 ## Installation
+
+### Using use-package
+
+```emacs-lisp
+(use-package flymake-biome
+  :ensure t)
+```
 
 ### Cloning the repo
 
